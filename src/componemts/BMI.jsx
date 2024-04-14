@@ -36,7 +36,9 @@ function BMI() {
       }, []);
     
       const handleBeforeUnload = () => {
-        localStorage.removeItem('bmi');
+        setTimeout(() => {
+          localStorage.removeItem('bmi');
+        }, 2000);
       };
     
     
