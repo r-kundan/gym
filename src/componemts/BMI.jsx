@@ -60,7 +60,7 @@ function BMI() {
 
       <div className='rounded-md md:p-4 md:h-[400px] md:w-[700px] bg-white  w-auto md:flex   shadow-2xl '>
         <div className=' bg-white rounded-md md:rounded-l-lg flex items-center justify-center flex-col '>
-          <form action="" className='flex p-2 flex-col items-center'>
+          <form action="/bmi" className='flex p-2 flex-col items-center'>
             <h1 className='text-4xl font-bold'>BMI Calulator</h1>
          
             <input
@@ -80,7 +80,7 @@ function BMI() {
           onChange={(e) => setHeight(e.target.value)}
               required
             />
-            <button type="submit" onClick={calculateBMI} className=
+            <button type="submit"f onClick={calculateBMI} className=
             'bg-cyan-600 border-none rounded-full font-bold cursor-pointer text-xl outline-none p-2 w-40 text-white m-4'>
 							calculator
 						</button>
