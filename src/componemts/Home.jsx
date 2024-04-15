@@ -177,7 +177,9 @@ function Home() {
         </div>
       </div>
       <div className="flex justify-center flex-col items-center m-6 gap-12">
-        <h1 className="text-4xl font-extrabold text-pretty border-t-2 border-b-2 p-2 text-teal-600">
+        <h1 className="text-4xl font-extrabold text-pretty border-t-2 border-b-2 p-2 text-teal-600" data-aos='fade-up' data-aos-delay="50"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in-out">
           READY TO START{" "}
           <span className="text-white ">
             &nbsp; &nbsp;YOUR JUOURNEY&nbsp;&nbsp;
