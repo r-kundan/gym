@@ -61,7 +61,7 @@ function Home() {
                   <div>
                     <img
                       className="shadow-innerShadow rounded-full w-52 h-52"
-                      src="https://source.unsplash.com/wXBK9JrM0iU"
+                      src="./gym3.jpg"
                       alt=""
                     />
                   </div>
@@ -78,7 +78,7 @@ function Home() {
                   <div>
                     <img
                       className="shadow-innerShadow rounded-full w-52 h-52"
-                      src="https://source.unsplash.com/f4RBYsY2hxA"
+                      src="./gym1.jpg"
                       alt=""
                     />
                   </div>
@@ -93,7 +93,7 @@ function Home() {
                   <div>
                     <img
                       className="shadow-innerShadow rounded-full w-52 h-52"
-                      src="https://source.unsplash.com/xB4ExGcUai0"
+                      src="./gym2.jpg"
                       alt=""
                     />
                   </div>
