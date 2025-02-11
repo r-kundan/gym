@@ -18,9 +18,9 @@ function BMI() {
    
 
   
-    const calculateBMI = () => {
-        
-        if (weight && height) {
+    const calculateBMI = (event) => {
+      e.preventDefault(); // Prevent form submission
+              if (weight && height) {
           const heightInMeters = height / 100; // Convert height from cm to meters
           const bmiValue = weight / (heightInMeters * heightInMeters);
           setBMI(bmiValue.toFixed(2)); // Limit to two decimal places
@@ -80,7 +80,7 @@ function BMI() {
           onChange={(e) => setHeight(e.target.value)}
               required
             />
-            <button type="submit" onClick={calculateBMI} className=
+            <button type="button" onClick={calculateBMI} className=
             'bg-cyan-600 border-none rounded-full font-bold cursor-pointer text-xl outline-none p-2 w-40 text-white m-4'>
 							calculator
 						</button>
