@@ -18,7 +18,7 @@ function BMI() {
    
 
   
-    const calculateBMI = (event) => {
+    const calculateBMI = (e) => {
       e.preventDefault(); // Prevent form submission
               if (weight && height) {
           const heightInMeters = height / 100; // Convert height from cm to meters
