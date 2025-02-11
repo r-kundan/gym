@@ -80,7 +80,7 @@ function BMI() {
           onChange={(e) => setHeight(e.target.value)}
               required
             />
-            <button type="submit"f onClick={calculateBMI} className=
+            <button type="submit" onClick={calculateBMI} className=
             'bg-cyan-600 border-none rounded-full font-bold cursor-pointer text-xl outline-none p-2 w-40 text-white m-4'>
 							calculator
 						</button>
